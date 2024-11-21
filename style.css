@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    /* From https://css.glass */
+background: rgba(228, 247, 253, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+/* border: 1px solid rgba(228, 247, 253, 1); */
+    /* background: rgb(44,155,243);
+    background: linear-gradient(180deg, rgba(44,155,243,1) 0%, rgba(57,165,250,1) 56%, rgba(91,179,250,1) 88%); */
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 100px;
+    
+}
+
+.logo-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-header h1{
+    color: blue;
+    margin-left: 20px;
+}
+
+.logo-header h2{
+    color: chartreuse;
+    font-size: xx-large;
+}
+
+.menu-header ul{
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+}
+
+.menu-header ul li{
+    margin-left: 80px;
+    list-style: none;
+}
+
+.menu-header ul button{
+    margin-left: 80px;
+    background-color: rgb(44,155,243);
+    background: linear-gradient(90deg, rgba(44,155,243,1) 0%, rgba(44,155,243,1) 16%, rgba(255,255,255,1) 98%);;;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+main{
+    margin-top: 200px;
+}
+
+.container-pertama h1{
+    font-size: 2em;
+    width: 280px;
+}
